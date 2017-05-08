@@ -1,0 +1,34 @@
+{
+  "_pagesVisited": [
+    "http://foo.bar.com/p2",
+    "http://foo.bar.com/p3",
+    "http://foo.bar.com/p4",
+    "http://foo.bar.com/p5",
+    "http://foo.bar.com/p1",
+    "http://foo.bar.com/p6",
+    "http://foo.bar.com/p7"
+  ],
+  "_pagesSkipped": [
+    "http://foo.bar.com/p2",
+    "http://foo.bar.com/p4",
+    "http://foo.bar.com/p4",
+    "http://foo.bar.com/p5"
+  ],
+  "_pagesError": [],
+  "pagesVisited": [
+    "http://foo.bar.com/p2",
+    "http://foo.bar.com/p3",
+    "http://foo.bar.com/p4",
+    "http://foo.bar.com/p5",
+    "http://foo.bar.com/p1",
+    "http://foo.bar.com/p6",
+    "http://foo.bar.com/p7"
+  ],
+  "pagesSkipped": [
+    "http://foo.bar.com/p2",
+    "http://foo.bar.com/p4",
+    "http://foo.bar.com/p4",
+    "http://foo.bar.com/p5"
+  ],
+  "pagesError": []
+}

@@ -1,0 +1,15 @@
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\obj\Debug\GE_WebCrawler.UnitTests.csprojResolveAssemblyReference.cache
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\bin\Debug\pagesToCrawl.json
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\bin\Debug\Internet1.json
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\bin\Debug\Internet2.json
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\bin\Debug\GE_WebCrawler.UnitTests.dll
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\bin\Debug\GE_WebCrawler.UnitTests.pdb
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\bin\Debug\GE_WebCrawler.exe
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\bin\Debug\nunit.framework.dll
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\bin\Debug\Newtonsoft.Json.dll
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\bin\Debug\GE_WebCrawler.pdb
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\bin\Debug\nunit.framework.xml
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\bin\Debug\Newtonsoft.Json.xml
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\obj\Debug\GE_WebCrawler.UnitTests.dll
+c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler.UnitTests\obj\Debug\GE_WebCrawler.UnitTests.pdb
