@@ -36,34 +36,36 @@ namespace GE_WebCrawler
             }
             else
             {
-                //Test if valid URL
+                //Test if valid URL You would also want to add a simple ping here in this check if you were doing this on valid pages.
                 if (CheckURLValid(link))
                 {
+                    ////You could add the actually testing here for crawling pages
+                    //WebRequest myWebRequest;
+                    //WebResponse myWebResponse;
+
+                    //myWebRequest = WebRequest.Create(link);
+                    //myWebResponse = myWebRequest.GetResponse();//Returns a response from an Internet resource
+
+                    //Stream streamResponse = myWebResponse.GetResponseStream();//return the data stream from the internet
+                    //                                                          //and save it in the stream
+
+                    //StreamReader sreader = new StreamReader(streamResponse);//reads the data stream
+                    //var pageContent= sreader.ReadToEnd();//reads it to the end
+                    //var linksOnPage = Extract(pageContent);//gets the links only could use this to reiterate through more links
+                    //foreach(string l in linksOnPage)
+                    //{
+                    //    List<string> li = new List<string>;
+                    //    li.Add(l);
+                    //    pagesToVisit.Pages.Add(new PageModel { address = l, Links = li });
+                    //}
+
+                    //streamResponse.Close();
+                    //sreader.Close();
+                    //myWebResponse.Close();
+
                     Results.pagesVisited.Add(link);
 
-                                ////You could add the actually testing here for crawling pages
-                                //WebRequest myWebRequest;
-                                //WebResponse myWebResponse;
 
-                                //myWebRequest = WebRequest.Create(link);
-                                //myWebResponse = myWebRequest.GetResponse();//Returns a response from an Internet resource
-
-                                //Stream streamResponse = myWebResponse.GetResponseStream();//return the data stream from the internet
-                                //                                                          //and save it in the stream
-
-                                //StreamReader sreader = new StreamReader(streamResponse);//reads the data stream
-                                //var pageContent= sreader.ReadToEnd();//reads it to the end
-                                //var linksOnPage = Extract(pageContent);//gets the links only could use this to reiterate through more links
-                                //foreach(string l in linksOnPage)
-                                //{
-                                //    List<string> li = new List<string>;
-                                //    li.Add(l);
-                                //    pagesToVisit.Pages.Add(new PageModel { address = l, Links = li });
-                                //}
-
-                                //streamResponse.Close();
-                                //sreader.Close();
-                                //myWebResponse.Close();
                 }
                 else {
                     //didn't pass validation URL will return an error
