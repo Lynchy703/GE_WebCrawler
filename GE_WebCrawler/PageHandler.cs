@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
+using System.Net;
+using System.IO;
+using System.Text.RegularExpressions;
 
 namespace GE_WebCrawler
 {
@@ -37,6 +40,30 @@ namespace GE_WebCrawler
                 if (CheckURLValid(link))
                 {
                     Results.pagesVisited.Add(link);
+
+                                ////You could add the actually testing here for crawling pages
+                                //WebRequest myWebRequest;
+                                //WebResponse myWebResponse;
+
+                                //myWebRequest = WebRequest.Create(link);
+                                //myWebResponse = myWebRequest.GetResponse();//Returns a response from an Internet resource
+
+                                //Stream streamResponse = myWebResponse.GetResponseStream();//return the data stream from the internet
+                                //                                                          //and save it in the stream
+
+                                //StreamReader sreader = new StreamReader(streamResponse);//reads the data stream
+                                //var pageContent= sreader.ReadToEnd();//reads it to the end
+                                //var linksOnPage = Extract(pageContent);//gets the links only could use this to reiterate through more links
+                                //foreach(string l in linksOnPage)
+                                //{
+                                //    List<string> li = new List<string>;
+                                //    li.Add(l);
+                                //    pagesToVisit.Pages.Add(new PageModel { address = l, Links = li });
+                                //}
+
+                                //streamResponse.Close();
+                                //sreader.Close();
+                                //myWebResponse.Close();
                 }
                 else {
                     //didn't pass validation URL will return an error
@@ -61,6 +88,27 @@ namespace GE_WebCrawler
                     HandlePage(link);
                 }
             }
+        }
+
+        /// <summary>
+        /// Extracts all src and href links from a HTML string.
+        /// </summary>
+        /// <param name="html">The html source</param>
+        /// <returns>A list of links - these will be all links including javascript ones.</returns>
+        public static List<string> Extract(string html)
+        {
+            List<string> list = new List<string>();
+
+            Regex regex = new Regex("(?:href|src)=[\"|']?(.*?)[\"|'|>]+", RegexOptions.Singleline | RegexOptions.CultureInvariant);
+            if (regex.IsMatch(html))
+            {
+                foreach (Match match in regex.Matches(html))
+                {
+                    list.Add(match.Groups[1].Value);
+                }
+            }
+
+            return list;
         }
     }
 }

@@ -7,3 +7,6 @@ c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_We
 c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler\obj\Debug\GE_WebCrawler.pdb
 c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler\bin\Debug\pagesToCrawl.json
 c:\users\matthew.lynch\documents\visual studio 2015\Projects\GE_WebCrawler\GE_WebCrawler\obj\Debug\GE_WebCrawler.csprojResolveAssemblyReference.cache
+C:\Users\matthew.lynch\Desktop\Sandbox\GE_WebCrawler\GE_WebCrawler\bin\Debug\GE_WebCrawler.exe.config
+C:\Users\matthew.lynch\Desktop\Sandbox\GE_WebCrawler\GE_WebCrawler\obj\Debug\GE_WebCrawler.exe
+C:\Users\matthew.lynch\Desktop\Sandbox\GE_WebCrawler\GE_WebCrawler\obj\Debug\GE_WebCrawler.pdb
